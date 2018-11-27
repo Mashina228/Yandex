@@ -65,7 +65,7 @@ def main():
         try:
             c.le()
         except PasswordError as e:
-            vs[e] += 0
+            vs[e] += 1
         try:
             c.let()
         except PasswordError as e:
