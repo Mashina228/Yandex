@@ -15,7 +15,7 @@ class MyWidget(QMainWindow):
             if self.radioButton_5.isChecked():
                 self.vivod += 'Синий'
             elif self.radioButton_6.isChecked():
-                self.vivod += 'Зёленый'
+                self.vivod += 'Зёленый
             elif self.radioButton_7.isChecked():
                 self.vivod += 'Красный'
             self.vivod += '\n'
