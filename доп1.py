@@ -49,7 +49,6 @@ class Example(QWidget):
 
         self.lbl.move(400, 300)
 
-
     def hello(self):
         try:
             a = str(self.url_s.text())
