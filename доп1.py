@@ -68,8 +68,8 @@ class Example(QWidget):
                 for i in range(x):
                     for j in range(y):
                         pixels[i, j] = 0, 255, 0
-            im.save('Готово.jpg')
-            pixmap = QPixmap('Готово.jpg')
+            im.save(a)
+            pixmap = QPixmap(a)
             self.lbl.setPixmap(pixmap)
             self.lbl.show()
         except Exception as e:
@@ -93,8 +93,8 @@ class Example(QWidget):
                 for i in range(x):
                     for j in range(y):
                         pixels[i, j] = 0, 255, 0
-            im.save('Готово.jpg')
-            pixmap = QPixmap('Готово.jpg')
+            im.save()
+            pixmap = QPixmap(a)
             t = QTransform().rotate(45)
 
             self.lbl.setPixmap(pixmap.transformed(t))
